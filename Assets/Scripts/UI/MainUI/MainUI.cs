@@ -1,12 +1,13 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Photon.Pun;
 
 public class MainMenu : MonoBehaviour
 {
     // 게임 시작 버튼 클릭 시 호출되는 함수
     public void PlayGame()
     {
-        SceneManager.LoadScene("LobbyScene");
+        SceneManager.LoadScene("RoomListScene");
     }
 
     // 설정 버튼 클릭 시 호출되는 함수
