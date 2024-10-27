@@ -1,4 +1,3 @@
-// PhotonLauncher.cs
 using Photon.Pun;
 using UnityEngine;
 using TMPro;
