@@ -16,8 +16,7 @@ public class MainMenu : MonoBehaviourPunCallbacks
             Debug.LogError("Photon Network is not connected!");
         }
 
-        Debug.Log("로비에 입장했습니다.");
-        SceneManager.LoadScene("LobbyScene");
+        SceneManager.LoadScene("NicknameScene");
     }
 
     // 설정 버튼 클릭 시 호출되는 함수
